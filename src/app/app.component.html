@@ -1,9 +1,21 @@
-<h1>Hola mundo angular</h1>
+<h1>Ejercicio 1</h1>
+<!-- <input type="text" [(ngModel)]="title"><br> <br> -->
+Edad1:
+<input type="number" [(ngModel)]="myUsuario.edad1"> <br><br>
+Edad2:
+<input type="number" [(ngModel)]="myUsuario.edad2">
 
- <h3>{{title}}</h3> <br>
-<h3>{{myUsuario.nombre}}</h3>
+ <!--<h3>{{title}}</h3> <br> 
+<h3>{{myUsuario.edad1}}</h3>
+<h3>{{myUsuario.edad2}}</h3> --> <br><br>
+
+Suma:<input type="text" disabled [(ngModel)]="suma"> <br><br>
+Promedio:<input type="text" disabled [(ngModel)]="prom">
+
+
+
 <br><br>
- <input type="button" value="saludar"(click)=saludar()>
+ <input type="button" value="Calcular" (click)=sumar()>-
+ <input type="button" value="Limpiar cuadro de textos" (click)=limpiarcuadro()>
 <br><br>
-<input type="text" [(ngModel)]="title"><br> <br>
-<input type="text" [(ngModel)]="myUsuario.nombre">
+

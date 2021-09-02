@@ -1,10 +1,15 @@
 export class Usuario {
-    nombre:string;
 
-   
+    edad1:number;
+    edad2:number;
+    suma=0;
+
    constructor() {
-      this.nombre="natalia-natalia";
+      this.edad1=0;
+      this.edad2=0;
        
    }
+
+  
 
 }
